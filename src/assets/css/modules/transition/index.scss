@@ -1,0 +1,14 @@
+@forward './base.scss';
+@forward './fade.scss';
+@forward './rotate.scss';
+@forward './scale.scss';
+@forward './slide.scss';
+@forward './scroll.scss';
+@forward './zoom.scss';
+
+.collapse-transition {
+  transition:
+    0.2s height ease-in-out,
+    0.2s padding-top ease-in-out,
+    0.2s padding-bottom ease-in-out;
+}
